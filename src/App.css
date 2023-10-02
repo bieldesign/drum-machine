@@ -1,0 +1,58 @@
+.tudo{
+    margin: 100px; 
+    text-align: center;
+}
+#drum-machine{
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    padding: 24px;
+    background-color: rgb(10, 50, 50);
+    border-radius: 16px;
+    border: 2px;
+    border-style: outset;
+    border-color: rgb(6, 43, 43);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+#drum-pads{
+    background-color: rgb(8, 46, 46);
+    padding: 20px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 50px;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 50px auto;
+    width: min-content;
+    
+}
+.drum-pad{
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: larger;
+    color: aliceblue;
+    background-color:rgb(8, 46, 46);
+}
+.display:focus{
+    color: aqua;
+}
+
+#display{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    border: 1px;
+    border-color: white;
+    border-radius: 8px;
+    background-color: rgb(8, 46, 46);
+    color: antiquewhite;
+    width: max-content;
+    min-width: 100px;
+    margin: auto;
+}
